@@ -10,13 +10,14 @@
 }
 
 html {
-  background: linear-gradient(225deg, rgba(93,127,163,1) 0%, rgba(80,152,167,1) 100%);
+  background: linear-gradient(225deg, rgba(92,0,213,1) 0%, rgba(115,105,177,1) 100%);
 }
 
 
 body {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
@@ -29,6 +30,7 @@ body {
   border-radius: 50%;
   border: 2px solid black;
   position: relative;
+  margin-bottom: 1.5rem;
 }
 
 .clock .number {
@@ -98,4 +100,19 @@ body {
   width: 10px;
   height: 35%;
   background-color: black;
+}
+
+.digitalClock {
+  background-color: black;
+  border: 2px solid gray;
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  padding: .5rem;
 }

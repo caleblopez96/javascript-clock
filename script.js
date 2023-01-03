@@ -17,3 +17,14 @@ function setClock() {
 const setRotation = (element, ratio) => {
   element.style.setProperty('--rotation', ratio * 360)
 }
+
+
+
+let todaysDate = new Date();
+const digitalHour = todaysDate.getHours() % 12 || 12;
+const digitalMinute = todaysDate.getMinutes();
+const digHour = document.querySelector('.digHour');
+const digMinute = document.querySelector('.digMinute');
+
+digHour.innerText = digitalHour;
+digMinute.innerText = `:${digitalMinute}`;
