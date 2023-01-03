@@ -14,6 +14,6 @@ function setClock() {
   setRotation(hoursHand, hoursRatio)
 }
 
-const setRotation = (element, rotationRatio) => {
-  element.style.setProperty('--rotation', rotationRatio * 360)
+const setRotation = (element, ratio) => {
+  element.style.setProperty('--rotation', ratio * 360)
 }
