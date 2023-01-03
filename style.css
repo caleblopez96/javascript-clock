@@ -10,7 +10,7 @@
 }
 
 html {
-  background: radial-gradient(circle, rgba(93,127,163,1) 50%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(225deg, rgba(93,127,163,1) 0%, rgba(80,152,167,1) 100%);
 }
 
 
